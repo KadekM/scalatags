@@ -14,6 +14,8 @@ trait Tags extends generic.Tags[dom.Element, dom.Element, dom.Node] with TagFact
   lazy val meta = typedTag[dom.html.Meta]("meta", void = true)
   // Scripting
   lazy val script = typedTag[dom.html.Script]("script")
+  // Styling
+  lazy val style = typedTag[dom.html.Style]("style")
   // Sections
   lazy val body = typedTag[dom.html.Body]("body")
   lazy val h1 = typedTag[dom.html.Heading]("h1")
